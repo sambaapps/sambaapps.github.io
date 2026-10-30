@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Majlis Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Majlis games app by Samba Apps — سياسة الخصوصية لتطبيق مجلس">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Cinzel:wght@500;600&family=El+Messiri:wght@600;700&display=swap">
+<style>
+  /* Layout: one reading column; Arabic first (RTL), English below (LTR); the app's black-and-gold look. */
+  :root {
+    --bg: #0d0b08;
+    --panel: #16120c;
+    --ink: #f3ecdc;
+    --dim: #a89a7e;
+    --gold: #d9b556;
+    --gold-hi: #f2dc9b;
+    --rule: rgba(217, 181, 86, 0.28);
+    --display-ar: "El Messiri", "Cairo", "Segoe UI", Tahoma, sans-serif;
+    --body-ar: "Cairo", "Segoe UI", Tahoma, sans-serif;
+    --display-en: "Cinzel", Georgia, "Times New Roman", serif;
+    --body-en: "Cairo", "Segoe UI", system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { margin: 0; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body-ar);
+    font-size: 16px;
+    line-height: 1.8;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 32px 56px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; display: grid; gap: 40px; }
+  header.top { text-align: center; display: grid; gap: 10px; justify-items: center; }
+  .crest { width: 64px; height: 64px; }
+  .brand { font-family: var(--display-en); letter-spacing: 0.4em; color: var(--gold); font-size: 15px; margin-inline-start: 0.4em; }
+  h1 { font-family: var(--display-ar); font-size: clamp(28px, 6vw, 38px); margin: 0; color: var(--gold-hi); line-height: 1.3; text-wrap: balance; }
+  .meta { color: var(--dim); font-size: 14px; }
+  .langs { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .langs a {
+    color: var(--gold); text-decoration: none; border: 1px solid var(--rule);
+    padding: 4px 14px; border-radius: 999px; font-size: 14px;
+  }
+  .langs a:hover, .langs a:focus-visible { border-color: var(--gold); outline: none; }
+  section.policy { display: grid; gap: 22px; }
+  section.policy > h2.lang {
+    font-family: var(--display-ar); color: var(--gold); font-size: 22px; margin: 0;
+    padding-bottom: 8px; border-bottom: 1px solid var(--rule);
+  }
+  section[lang="en"] { font-family: var(--body-en); line-height: 1.7; }
+  section[lang="en"] > h2.lang { font-family: var(--display-en); letter-spacing: 0.06em; }
+  article { display: grid; gap: 6px; }
+  h3 { margin: 0; font-size: 17px; color: var(--gold-hi); font-weight: 700; }
+  p, ul { margin: 0; color: var(--ink); }
+  ul { padding-inline-start: 1.3em; display: grid; gap: 4px; }
+  li::marker { color: var(--gold); }
+  .muted { color: var(--dim); }
+  a { color: var(--gold); text-underline-offset: 3px; }
+  .contact {
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 14px;
+    padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center;
+  }
+  .email { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; direction: ltr; unicode-bidi: isolate; color: var(--gold-hi); user-select: all; word-break: break-all; }
+  .copy {
+    font: inherit; font-size: 13px; color: var(--bg); background: var(--gold); border: 0;
+    border-radius: 999px; padding: 4px 12px; cursor: pointer;
+  }
+  .copy:focus-visible { outline: 2px solid var(--gold-hi); outline-offset: 2px; }
+  footer { text-align: center; color: var(--dim); font-size: 13px; font-family: var(--display-en); letter-spacing: 0.25em; }
+  @media (prefers-reduced-motion: no-preference) { .langs a { transition: border-color .2s; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <svg class="crest" viewBox="0 0 100 100" aria-hidden="true">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#8A6A2B"/><stop offset=".42" stop-color="#F7E7A8"/><stop offset=".7" stop-color="#B8893A"/><stop offset="1" stop-color="#EBCB79"/>
+      </linearGradient></defs>
+      <path d="M50 6 94 50 50 94 6 50Z" fill="#14100a" stroke="url(#g)" stroke-width="3.4"/>
+      <path d="M50 13 87 50 50 87 13 50Z" fill="none" stroke="url(#g)" stroke-width="1"/>
+      <circle cx="50" cy="50" r="17" fill="none" stroke="#d9b556" stroke-opacity=".5" stroke-width="1"/>
+      <path d="M50 37l3.7 9.1 9.3-3.5-3.5 9.3L68.6 56l-9.1 3.7 3.5 9.3-9.3-3.5L50 74.6l-3.7-9.1-9.3 3.5 3.5-9.3L31.4 56l9.1-3.7-3.5-9.3 9.3 3.5z" transform="translate(0 -6)" fill="none" stroke="#d9b556" stroke-opacity=".55" stroke-width="1"/>
+    </svg>
+    <div class="brand">MAJLIS</div>
+    <h1>سياسة الخصوصية لتطبيق «مجلس»</h1>
+    <div class="meta">Samba Apps · آخر تحديث: 30 أكتوبر 2026 · Last updated: 30 October 2026</div>
+    <nav class="langs" aria-label="Language">
+      <a href="#ar">العربية</a>
+      <a href="#en">English</a>
+    </nav>
+  </header>
+
+  <section class="policy" id="ar" lang="ar" dir="rtl">
+    <h2 class="lang">العربية</h2>
+
+    <article>
+      <h3>من نحن</h3>
+      <p>«مجلس» (Majlis) تطبيق ألعاب يضم مسابقات وألعاب شدّة وألعاباً جماعية وألعاب كرة قدم وألغازاً. يطوّره ويملكه <strong>Samba Apps</strong>. تشرح هذه السياسة ما المعلومات التي تُجمع عند استخدامك التطبيق، ولماذا، وما خياراتك.</p>
+    </article>
+
+    <article>
+      <h3>باختصار</h3>
+      <ul>
+        <li>لا نطلب منك إنشاء حساب، ولا نجمع اسمك أو بريدك أو رقم هاتفك أو موقعك.</li>
+        <li>تقدّمك في الألعاب وإعداداتك تُحفظ على جهازك فقط، ولا تُرسل إلينا.</li>
+        <li>نعرض إعلانات من Google AdMob، وهي التي قد تجمع معرّفات الجهاز لعرض الإعلانات وقياسها.</li>
+        <li>المشتريات (نسخة بلا إعلانات) تتم عبر Google Play أو App Store، ولا نرى بيانات الدفع.</li>
+        <li>لا نبيع أي بيانات.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>البيانات المحفوظة على جهازك</h3>
+      <p>يحفظ التطبيق على جهازك فقط: اللغة والمظهر وسرعة اللعب، ونتائجك وأرقامك القياسية، والألغاز التي حللتها، والأسماء التي تكتبها للاعبين في اللعب الجماعي على الهاتف نفسه. لا تغادر هذه البيانات جهازك، وتُحذف عند حذف التطبيق.</p>
+    </article>
+
+    <article>
+      <h3>الإعلانات (Google AdMob)</h3>
+      <p>يستخدم التطبيق خدمة Google AdMob لعرض الإعلانات: إعلانات بين نهايات الألعاب، وإعلانات بمكافأة تختار مشاهدتها مقابل مساعدة مثل التلميح أو التراجع. لعرض هذه الإعلانات وقياسها ومنع الاحتيال، قد تجمع Google:</p>
+      <ul>
+        <li>معرّف الإعلانات على الجهاز (Advertising ID في أندرويد، وIDFA في iOS إذا سمحت بذلك).</li>
+        <li>عنوان IP، ونوع الجهاز ونظام التشغيل، والتفاعل مع الإعلانات، وبيانات تقنية عن الأعطال والأداء.</li>
+      </ul>
+      <p>في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا يعرض التطبيق نموذج موافقة من Google قبل الإعلانات المخصّصة، ويمكنك الرفض. على iOS يسألك النظام عن إذن التتبّع، ويعمل التطبيق كاملاً سواء وافقت أم لا. يمكنك أيضاً إعادة تعيين معرّف الإعلانات أو إيقاف الإعلانات المخصّصة من إعدادات جهازك.</p>
+      <p>تعالج Google هذه البيانات وفق سياساتها: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a> و<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيف تستخدم Google المعلومات من التطبيقات التي تستعمل خدماتها</a>.</p>
+    </article>
+
+    <article>
+      <h3>المشتريات داخل التطبيق</h3>
+      <p>نسخة «مجلس بلا إعلانات» (اشتراك أو شراء مدى الحياة) تُشترى عبر Google Play أو Apple App Store. هما من يعالج الدفع وفق سياساتهما، ولا نتلقى رقم بطاقتك ولا أي بيانات دفع. يتلقى التطبيق فقط حالة الشراء (هل الاشتراك فعّال) ليوقف الإعلانات.</p>
+    </article>
+
+    <article>
+      <h3>الأطفال</h3>
+      <p>التطبيق غير موجّه للأطفال دون 13 عاماً، ولا نجمع عن قصد أي بيانات شخصية منهم. إذا كنت وليّ أمر وتعتقد أن طفلك استخدم التطبيق، فراسلنا على البريد أدناه.</p>
+    </article>
+
+    <article>
+      <h3>مشاركة البيانات</h3>
+      <p>لا نبيع البيانات ولا نؤجّرها. البيانات الوحيدة التي تغادر جهازك هي ما تجمعه Google لعرض الإعلانات، وما يلزم Google Play أو App Store لإتمام الشراء، كما شُرح أعلاه.</p>
+    </article>
+
+    <article>
+      <h3>حقوقك وحذف البيانات</h3>
+      <p>بما أننا لا نحتفظ بأي بيانات عنك على خوادمنا، فإن حذف التطبيق يحذف كل ما حفظه على جهازك. للتحكم ببيانات الإعلانات استخدم إعدادات الإعلانات في جهازك، أو أدوات Google في <a href="https://myadcenter.google.com" target="_blank" rel="noopener">My Ad Center</a>. لأي طلب أو سؤال عن خصوصيتك، راسلنا.</p>
+    </article>
+
+    <article>
+      <h3>تغييرات على هذه السياسة</h3>
+      <p>قد نحدّث هذه السياسة عند إضافة ميزات جديدة، مثل اللعب عبر الإنترنت أو الحسابات. سنغيّر تاريخ «آخر تحديث» في أعلى الصفحة، وعند أي تغيير جوهري سنعلن عنه داخل التطبيق.</p>
+    </article>
+
+    <article>
+      <h3>تواصل معنا</h3>
+      <div class="contact">
+        <span>Samba Apps — البريد:</span>
+        <span class="email" id="email-ar">sambasapps@gmail.com</span>
+        <button class="copy" type="button" data-copy="email-ar">نسخ</button>
+      </div>
+    </article>
+  </section>
+
+  <section class="policy" id="en" lang="en" dir="ltr">
+    <h2 class="lang">English</h2>
+
+    <article>
+      <h3>Who we are</h3>
+      <p>Majlis (مجلس) is a games app with quizzes, card games, group board games, football games and puzzles. It is developed and owned by <strong>Samba Apps</strong>. This policy explains what information is collected when you use the app, why, and the choices you have.</p>
+    </article>
+
+    <article>
+      <h3>In short</h3>
+      <ul>
+        <li>No account is needed. We don't collect your name, email, phone number or location.</li>
+        <li>Your game progress and settings are stored only on your device and are never sent to us.</li>
+        <li>Ads are served by Google AdMob, which may collect device identifiers to show and measure ads.</li>
+        <li>Purchases (the ad-free version) go through Google Play or the App Store; we never see payment details.</li>
+        <li>We do not sell any data.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Data stored on your device</h3>
+      <p>The app stores, on your device only: language, theme and game speed; your scores and records; the puzzles you have solved; and the player names you type for pass-and-play games. This data never leaves your device and is deleted when you uninstall the app.</p>
+    </article>
+
+    <article>
+      <h3>Advertising (Google AdMob)</h3>
+      <p>The app uses Google AdMob to show ads: full-screen ads at the end of games, and rewarded ads you choose to watch for help such as a hint or an undo. To serve and measure these ads and to prevent fraud, Google may collect:</p>
+      <ul>
+        <li>Your device's advertising identifier (Advertising ID on Android; IDFA on iOS if you allow it).</li>
+        <li>IP address, device and operating-system type, ad interactions, and technical crash and performance data.</li>
+      </ul>
+      <p>In the EEA, the UK and Switzerland the app shows Google's consent form before personalised ads, and you can decline. On iOS the system asks for tracking permission; the app works fully either way. You can also reset your advertising ID or turn off personalised ads in your device settings.</p>
+      <p>Google processes this data under its own policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+    </article>
+
+    <article>
+      <h3>In-app purchases</h3>
+      <p>"Majlis without ads" (a subscription or a lifetime purchase) is bought through Google Play or the Apple App Store, which handle payment under their own policies. We never receive your card number or any payment data. The app only receives the purchase status (whether ad-free is active) so it can turn ads off.</p>
+    </article>
+
+    <article>
+      <h3>Children</h3>
+      <p>The app is not directed at children under 13, and we do not knowingly collect personal data from them. If you are a parent and believe your child has used the app, contact us at the address below.</p>
+    </article>
+
+    <article>
+      <h3>Sharing</h3>
+      <p>We do not sell or rent data. The only data that leaves your device is what Google collects to serve ads, and what Google Play or the App Store need to complete a purchase, as described above.</p>
+    </article>
+
+    <article>
+      <h3>Your rights and deleting data</h3>
+      <p>We keep no data about you on any server, so uninstalling the app deletes everything it stored on your device. To control advertising data, use your device's ad settings or Google's <a href="https://myadcenter.google.com" target="_blank" rel="noopener">My Ad Center</a>. For any privacy request or question, contact us.</p>
+    </article>
+
+    <article>
+      <h3>Changes to this policy</h3>
+      <p>We may update this policy when we add features such as online play or accounts. We will change the "Last updated" date at the top, and announce any significant change inside the app.</p>
+    </article>
+
+    <article>
+      <h3>Contact</h3>
+      <div class="contact">
+        <span>Samba Apps — email:</span>
+        <span class="email" id="email-en">sambasapps@gmail.com</span>
+        <button class="copy" type="button" data-copy="email-en">Copy</button>
+      </div>
+    </article>
+  </section>
+
+  <footer>SAMBA APPS · 2026</footer>
+</div>
+
+<script>
+  document.querySelectorAll('.copy').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.getAttribute('data-copy'));
+      var text = el.textContent.trim();
+      var done = function () { var t = btn.textContent; btn.textContent = '✓'; setTimeout(function () { btn.textContent = t; }, 1400); };
+      var fallback = function () {
+        var r = document.createRange(); r.selectNodeContents(el);
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      };
+      try {
+        navigator.clipboard.writeText(text).then(done, fallback);
+      } catch (e) { fallback(); }
+    });
+  });
+</script>
+
+</body>
+</html>
